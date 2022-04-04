@@ -1,4 +1,22 @@
-h1 {
-  color: red;
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: purple;
+}
+
+.main-heading {
+  color: white;
+  font-weight: bolder;
+}
+
+.fa {
+  height: 300px;
+  width: 100px;
 }
 /*# sourceMappingURL=main.css.map */
